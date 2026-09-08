@@ -87,7 +87,7 @@ public class Booking {
 					
 			  double updatedEarnings = chosenTaxi.gettotalEarnings() + fare;
 			  
-			    bv  
+			     
 		        String updateTaxi = "UPDATE taxi SET current_spot = '" + dropPoint + "', free_time = " + dropTime +
 		                            ", total_earnings = " + updatedEarnings + " WHERE taxi_id = " + chosenTaxi.getTaxiId();
 		      
