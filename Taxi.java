@@ -17,7 +17,7 @@ public class Taxi {
 		
 		this.taxi_id = taxi_id;
 		this.current_spot = current_spot;
-		this.free_time = free_time;
+		this.free_time = free_Time;
 		this.total_earnings = total_earnings;
 		
 	}
